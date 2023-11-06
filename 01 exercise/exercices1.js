@@ -18,7 +18,7 @@ function getExerciseFunction() {
 
   const exercise = getExerciseFunction();
 
-// by using exercise here  I could avoid the undifine of the console log
+// by using exercise here  I could avoid the undefine of the console log
 
 exercise("Running");
 exercise("Swimming");
@@ -26,7 +26,7 @@ exercise("Dancing");
 exercise("Fencing");
 
 
-// I try this at the beggining but replace it because this because it was giving me undifined after each console.log
+// I try this at the beggining but replace it because this because it was giving me undefined after each console.log
 
 //   console.log(exercise("Running")); 
 //   console.log(exercise("Swimming")); 
