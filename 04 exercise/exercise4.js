@@ -1,5 +1,5 @@
 
-// Use classes and constructors to arrange everything better, and list with number the classes person, programmer and the const per because they were in conflic for having the same name.
+// Use classes and constructors to arrange everything better, and list with number the classes person, programmer and the const per to avoid conflic by having the same name.
 
 
 // Create a Person constructor that has three properties: name, job, and age.
