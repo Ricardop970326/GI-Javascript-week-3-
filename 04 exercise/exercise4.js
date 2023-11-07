@@ -15,7 +15,7 @@ class person1 {
 
 }
       //list this var. const with number so they were no conflicts.
-const per1 = new person1('ricardo', 'apprentoice', 26 );
+const per1 = new person1('ricardo', 'apprentice', 26 );
 
 console.log(per1);
 per1.list();
@@ -36,7 +36,7 @@ class person2 {
     }
 }
 
-const per2 = new person2('ricardo', 'apprentoice', 26 );
+const per2 = new person2('ricardo', 'apprentice', 26 );
 
 console.log(per2);
 per2.exercise();
@@ -56,7 +56,7 @@ class person3 {
     }
 }
 
-const per3 = new person3('ricardo', 'apprentoice', 26 );
+const per3 = new person3('ricardo', 'apprentice', 26 );
 
 console.log(per3);
 per3.fetchJob();
@@ -76,7 +76,7 @@ class programmer1 extends person1 {
       }
 
 }
-const per4 = new programmer1('ricardo', 'apprentoice', 26, ['javascript', 'html', 'css']);
+const per4 = new programmer1('ricardo', 'apprentice', 26, ['javascript', 'html', 'css']);
 
 // console.log(per4);
 per4.list2();
@@ -106,7 +106,7 @@ class programmer2 extends person1 {
         console.log(`Name: ${this.name}, Job: ${this.job}, Age: ${this.age}, Languages: ${this.languages}, Busy: ${this.busy}`);
       }
 }
-const per5 = new programmer2('ricardo', 'apprentoice', 26, ['javascript', 'html', 'css']);
+const per5 = new programmer2('ricardo', 'apprentice', 26, ['javascript', 'html', 'css']);
 
 // // console.log(per5);
 per5.completeTask();
@@ -137,7 +137,7 @@ class programmer3 extends person1 {
     }
 }
 
-const per6 = new programmer3('ricardo', 'apprentoice', 26, ['javascript', 'html', 'css']);
+const per6 = new programmer3('ricardo', 'apprentice', 26, ['javascript', 'html', 'css']);
 
 // console.log(per6);
 per6.completeTask();
@@ -172,7 +172,7 @@ class programmer4 extends person1 {
     }
 }
 
-const per7 =  new programmer4('ricardo', 'apprentoice', 26, ['javascript', 'html', 'css']);
+const per7 =  new programmer4('ricardo', 'apprentice', 26, ['javascript', 'html', 'css']);
 
 // console.log(per7);
 per7.completeTask();
