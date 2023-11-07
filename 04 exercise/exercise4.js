@@ -1,7 +1,3 @@
-
-
-
-
 // Create a Person constructor that has three properties: name, job, and age.
      //list the class with number so they were no conflicts.
 class person1 {
